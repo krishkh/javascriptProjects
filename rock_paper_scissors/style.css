@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+body {
+  background-color: rgb(253, 181, 179);
+}
+h1 {
+  text-align: center;
+  margin-top: 0px; /* Add space on the top */
+  margin-bottom: 40px; /* Add space on the bottom */
+  background-color: rgb(23, 4, 60);
+  color: rgb(255, 255, 255);
+  line-height: 5rem;
+}
+
+img {
+  height: 200px;
+  width: 200px;
+  object-fit: cover;
+}
+#images {
+  display: flex;
+  justify-content: center;
+  gap: 5rem;
+}
+.image {
+  height: 200px;
+  width: 200px;
+}
+#scoreBoard {
+  display: flex;
+  gap: 5rem;
+  text-align: center;
+  justify-content: center;
+}
+
