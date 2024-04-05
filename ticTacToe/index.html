@@ -8,9 +8,30 @@
   </head>
 
   <body>
-    <h1>Welcome to TicTacToe</h1>
-    <div id="gameBoard">
-      <div></div>
+    <div id="screen">
+      <h1>Tic Tac Toe</h1>
+      <div id="board">
+        <div class="row">
+          <div class="cell" id="cell_0"></div>
+          <div class="cell" id="cell_1"></div>
+          <div class="cell" id="cell_2"></div>
+        </div>
+        <div class="row">
+          <div class="cell" id="cell_3"></div>
+          <div class="cell" id="cell_4"></div>
+          <div class="cell" id="cell_5"></div>
+        </div>
+        <div class="row">
+          <div class="cell" id="cell_6"></div>
+          <div class="cell" id="cell_7"></div>
+          <div class="cell" id="cell_8"></div>
+        </div>
+      </div>
+      <div id="endWin">
+      <div id="status">Player X's turn</div>
+      <br>
+      <div id="restart">RESTART</div>
+      </div>
     </div>
     <script src="app.js"></script>
   </body>
