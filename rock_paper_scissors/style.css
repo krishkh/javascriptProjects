@@ -2,23 +2,27 @@
   margin: 0;
   padding: 0;
   text-align: center;
+  margin-bottom: 20px;
+  font-size: larger;
 }
 body {
-  background-color: rgb(253, 181, 179);
+  background-color: rgb(253, 221, 249);
 }
 h1 {
   text-align: center;
   margin-top: 0px; /* Add space on the top */
   margin-bottom: 40px; /* Add space on the bottom */
-  background-color: rgb(23, 4, 60);
+  background-color: rgb(11, 4, 26);
   color: rgb(255, 255, 255);
   line-height: 5rem;
+  font-size: 50px;
 }
 
 img {
   height: 200px;
   width: 200px;
   object-fit: cover;
+  border-radius: 50%;
 }
 #images {
   display: flex;
@@ -34,5 +38,15 @@ img {
   gap: 5rem;
   text-align: center;
   justify-content: center;
+}
+p{
+}
+#msg{
+  font-size: 40px;
+  color: rgb(42, 7, 36);
+  border-radius: 2rem;
+  background-color: rgb(255, 101, 149) ;
+  display: inline-block;
+  padding:1.5rem;
 }
 
